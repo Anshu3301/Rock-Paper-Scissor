@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to top left, #174ae4, #8720edf2);
+}
+
+#final_result{
+    height: 10vh;
+    width: 100vw;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: 'EB Garamond', serif;
+    color: #ffffff; /* white */
+    /* background-color: rgb(5, 138, 247); */
+    display: flex;
+    justify-content: center;
+}
+
+#round{
+    height: 10vh;
+    width: 100vw;
+    font-size: 35px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    color: #ffffff; /* white */
+    /* background-color: chocolate; */
+    margin-top: 2vh;
+}
+
+.box{
+    display: flex; 
+    justify-content: center;
+}
+
+#left{
+    height: 35vh;
+    width: 25vw;
+    background-color: #4d4dff; /* Royal blue */
+    margin-right: 10px;
+}
+
+#right{
+    height: 35vh;
+    width: 25vw;
+    background-color: #9933ff; /* Electric purple */
+    margin-left: 10px;
+}
+
+.top{
+    height: 7vh;
+    width: 25vw;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    background-color: #2822226e; /* Coral red */
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.choice{
+    height: 15vh;
+    width: 15vh;
+    background-color: #00ced1bd;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border: 3px solid black;
+    border-radius: 50%;
+}
+
+
+#user_choice{
+   margin: 50px 0 0 140px;
+}
+#computer_choice{
+    margin: 50px 0 0 140px;
+}
+
+#choose{
+    height: 12vh;
+    width: 18vw;
+    margin: 20px 0 0 40vw;
+    background-color: darkturquoise;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 3px solid black;
+    border-radius: 1em;
+}
+
+.img{
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+}
+
+#result{
+    height: 5vh;
+    width: 100vw;
+    font-size: 27px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    /* background-color: #ff66cc; Fuchsia pink */
+}
+
+.choices{
+    height: 17vh;
+    width: 17vh;
+}
+
