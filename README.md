@@ -1,5 +1,5 @@
 # Rock-Paper-Scissor Game
-It's a basic Rock Paper Scissor game for Fun...
+It's a basic Rock Paper Scissor game for Fun, made with HTML, CSS, JavaScript.
 
 Description Video provided below...
 
